@@ -65,7 +65,7 @@ struct Configuration
 
 // Default configuration and configuration loaded from the EEPROM
 #define CONFIG_UID 2247
-Configuration defaultConfig = { CONFIG_UID, "minipad", true, 10, 300, 330, 'x', 'y', 450, 450, 150, 150, true, true };
+Configuration defaultConfig = { CONFIG_UID, "minipad", true, 10, 300, 330, 'x', 'z', 450, 450, 150, 150, true, true };
 Configuration config;
 
 // Integers to remember the lowest/highest value the analog value gets to if rapid trigger is enabled.
